@@ -28,31 +28,12 @@
 		<fieldset>
 			<legend class="accordion_toggler"><s:text name="title.searchFilters" /></legend>
 			<div class="accordion_element">
-			<p>
-				<label for="filterFolder" class="basic-mint-label">
-					Folder:
-				</label>
-				<wpsf:select id="filterFolder" name="filterFolder" list="%{#cssFoldersMap}" headerKey="" headerValue="%{getText('label.all')}" />
-			</p>
-			<p class="noscreen">
-				Subfolders:
-			</p>
-			<ul class="radiocheck noBullet">
-				<li>
-					<wpsf:radio name="filterSubfolderType" value="none" id="filter-sub-1" checked="%{filterSubfolderType=='none'||filterSubfolderType==null}" />
-					<label for="filter-sub-1">Hide files in subfolders //todo</label>
-				</li>
-				<li>
-					<wpsf:radio name="filterSubfolderType" value="group" id="filter-sub-2" checked="%{filterSubfolderType=='group'}" />
-					<label for="filter-sub-2">Show files //todo</label>
-				</li>
-				<li>
-					<wpsf:radio name="filterSubfolderType" value="divide" id="filter-sub-3" checked="%{filterSubfolderType=='divide'}" />
-					<label for="filter-sub-3">Show subfolder and files //todo</label>
-				</li>
-			</ul>
-
-
+				<p>
+					<label for="filterFolder" class="basic-mint-label">
+						Folder:
+					</label>
+					<wpsf:select id="filterFolder" name="filterFolder" list="%{#cssFoldersMap}" headerKey="" headerValue="%{getText('label.all')}" />
+				</p>
 			</div>
 		</fieldset>
 		<p>
