@@ -21,29 +21,41 @@ Add the dependecy in you Portal's pom.xml
 
 
 ````xml
-<code>
-	<dependency>
-		<groupId>com.stealthefish</groupId>
-		<artifactId>entando-plugin-jpcsseditor</artifactId>
-		<version>3.2.0</version>
-		<type>war</type>
-	</dependency>
-</code>
+<project>
+	...
+	<dependencies>
+		...
+		<dependency>
+			<groupId>com.stealthefish</groupId>
+			<artifactId>entando-plugin-jpcsseditor</artifactId>
+			<version>3.2.0</version>
+			<type>war</type>
+		</dependency>
+		...
+	</dependencies>
+	...
+</project>
 ````
 
 And the repository:
 
 ````xml
-<repositories>
-    <repository>
-        <id>entando-plugin-jpcsseditor-mvn-repo</id>
-        <url>https://raw.github.com/NKjoep/entando-plugin-jpcsseditor/mvn-repo/</url>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-        </snapshots>
-    </repository>
-</repositories>
+<project>
+	...
+	<repositories>
+		...
+	    <repository>
+	        <id>entando-plugin-jpcsseditor-mvn-repo</id>
+	        <url>https://raw.github.com/NKjoep/entando-plugin-jpcsseditor/mvn-repo/</url>
+	        <snapshots>
+	            <enabled>true</enabled>
+	            <updatePolicy>always</updatePolicy>
+	        </snapshots>
+	    </repository>
+	    ...
+	</repositories>
+	...
+</project>
 ````
 
 
