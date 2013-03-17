@@ -17,7 +17,7 @@ It has been developed as example so don't use in a production enviroment.
 GETTING STARTED
 ---------------
 
-Add the dependecy in you Portal's pom.xml
+Add the dependecy in your Entando portal's pom.xml
 
 
 ````xml
@@ -37,7 +37,7 @@ Add the dependecy in you Portal's pom.xml
 </project>
 ````
 
-And the repository:
+And the repository in your Entando portal's pom.xml (if you don't want to install it manually in your local maven repository):
 
 ````xml
 <project>
