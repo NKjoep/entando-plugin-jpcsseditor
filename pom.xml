@@ -19,7 +19,9 @@
 		</developer>
 	</developers>
 	<url>http://www.stealthefish.com/</url>
-
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<build>
 		<plugins>
 			<plugin>
@@ -49,7 +51,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
-	</build>	
+	</build>
 </project>

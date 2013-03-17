@@ -63,10 +63,10 @@
 						</dd>
 					<dt><s:text name="label.url" /></dt>
 						<dd>
-							<a class="toggle-ellipsis" href="<wp:resourceURL /><s:property value="#fileResource.path" />" title="<s:text name="view.online.version" />&#32;<s:property value="#file.path" />">
+							<a class="toggle-ellipsis" href="<wp:resourceURL /><s:property value="#fileResource.path" />" title="<s:text name="view.online.version" />&#32;<wp:resourceURL /><s:property value="#fileResource.path" />">
 								<s:set var="text"><wp:resourceURL /><s:property value="#fileResource.path" /></s:set>
 								<s:if test="#text.length()>40">
-									<s:property value="#text.substring(#text.length()-40,#text.length())" />
+									...<s:property value="#text.substring(#text.length()-41,#text.length())" />
 								</s:if>
 								<s:else>
 									<s:property value="#text" />
