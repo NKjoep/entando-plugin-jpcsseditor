@@ -4,7 +4,7 @@ Css Editor Plugin
 This software is licensed under the terms of the
 GNU General Public License version 2 as published by the Free Software
 Foundation (http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt).
- 
+
 You may copy, adapt, and redistribute this file for commercial
 or non-commercial use.
 When copying, adapting, or redistributing this document you
@@ -69,6 +69,6 @@ http://github.com/NKjoep/jpcsseditor
 
 SCREENSHOTS
 -----------
-![Screenshot 1](https://github.com/NKjoep/jpstaticresourceeditor/raw/master/shot001.png)
+![Screenshot 1](https://github.com/NKjoep/jpcsseditor/raw/master/shot001.png)
 
-![Screenshot 2](https://github.com/NKjoep/jpstaticresourceeditor/raw/master/shot002.png)
+![Screenshot 2](https://github.com/NKjoep/jpcsseditor/raw/master/shot002.png)

@@ -12,16 +12,4 @@
 			parent="abstractService" >
 	</bean>
 
-	<!--
-		<property name="resourceeditorDAO">
-			<bean class="com.agiletec.plugins.jpcsseditor.aps.system.services.resourceeditor.ResourceeditorDAO">
-				<property name="dataSource" ref="servDataSource" />
-			</bean>
-		</property>
-	<bean id="jpstaticresourceeditorAttributeRolesLoader" class="com.agiletec.aps.system.common.entity.ExtraAttributeRoles">
-		<property name="entityManagerDest" ref="jpstaticresourceeditorResourceeditorManager" />
-		<property name="defsFilePath"><value>/WEB-INF/plugins/jpstaticresourceeditor/jpstaticresourceeditorAttributeRoles.xml</value></property>
-	</bean>
-	-->
-
 </beans>
