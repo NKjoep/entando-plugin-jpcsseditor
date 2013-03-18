@@ -71,9 +71,9 @@ http://github.com/NKjoep/jpcsseditor
 
 SCREENSHOTS
 -----------
-![Screenshot 1](https://github.com/NKjoep/jpcsseditor/raw/master/shot001.png)
+![Screenshot 1](https://raw.github.com/NKjoep/entando-plugin-jpcsseditor/master/shot001.png)
 
-![Screenshot 2](https://github.com/NKjoep/jpcsseditor/raw/master/shot002.png)
+![Screenshot 2](https://raw.github.com/NKjoep/entando-plugin-jpcsseditor/master/shot002.png)
 
 
 
