@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>entando-plugins-parent</artifactId>
 		<groupId>org.entando.entando.plugins</groupId>
-		<version>3.2.0</version>
+		<version>3.0.0</version>
 	</parent>
 	<artifactId>entando-plugin-jpcsseditor</artifactId>
 	<groupId>com.stealthefish</groupId>
@@ -89,7 +89,7 @@
 						<phase>deploy</phase>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>		
 		</plugins>
-	</build>
+	</build>	
 </project>
