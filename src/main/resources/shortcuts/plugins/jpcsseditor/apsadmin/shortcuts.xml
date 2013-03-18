@@ -1,0 +1,14 @@
+<shortcut-def>
+
+	<shortcuts>
+		<shortcut id="jpcsseditor.edit.shortCut" requiredPermission="superuser" menusection="plugins" source="jpcsseditor">
+			<description key="jpcsseditor.shortCut.list.shortDesc" />
+			<longdesc key="jpcsseditor.shortCut.list.longDesc" />
+			<url>
+				<param name="namespace">/do/jpcsseditor/Resourceeditor</param>
+				<param name="actionName">list</param>
+			</url>
+		</shortcut>
+	</shortcuts>
+
+</shortcut-def>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<package name="jpcsseditor_do/jpcsseditor/resourceeditor" namespace="/do/jpcsseditor/Resourceeditor" extends="entando-default">
+
+		<action name="intro" class="jpcsseditorAction">
+			<result type="tiles">admin.jpcsseditor.intro</result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="list" class="jpcsseditorAction" method="list">
+			<result type="tiles">admin.jpcsseditor.list</result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="edit" class="jpcsseditorAction" method="edit">
+			<result type="tiles">admin.jpcsseditor.edit</result>
+			<result name="failure" type="tiles">admin.jpcsseditor.edit</result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="save" class="jpcsseditorAction" method="save">
+			 <result name="input" type="tiles">admin.jpcsseditor.edit</result>
+			 <result type="redirect-action">
+				<param name="actionName">list</param>
+			 </result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="trash" class="jpcsseditorAction">
+			 <result type="tiles">admin.jpcsseditor.trash</result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="delete" class="jpcsseditorAction" method="delete">
+			 <result name="input" type="tiles">admin.jpcsseditor.list</result>
+			 <result type="redirect-action">
+			 	<param name="actionName">list</param>
+			 </result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+		<action name="new" class="jpcsseditorAction" method="createNew">
+			<result type="tiles">admin.jpcsseditor.edit</result>
+			<interceptor-ref name="entandoDefaultStack"><param name="requestAuth.requiredPermission">superuser</param></interceptor-ref>
+		</action>
+
+	</package>
+
+</struts>
