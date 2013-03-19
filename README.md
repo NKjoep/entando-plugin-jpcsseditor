@@ -87,12 +87,6 @@ Foundation (http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt).
 
 You may copy, adapt, and redistribute this file for commercial
 or non-commercial use.
-When copying, adapting, or redistributing this document you
-are required to provide proper attribution  to AgileTec, using
-the following attribution line:
-Copyright 2005 AgileTec s.r.l. (http://www.agiletec.it) All rights reserved.
-
-
 
 
 
