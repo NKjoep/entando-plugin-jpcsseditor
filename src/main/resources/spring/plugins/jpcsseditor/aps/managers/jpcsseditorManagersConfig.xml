@@ -8,7 +8,7 @@
 			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
 
 	<bean id="jpcsseditorManager"
-			class="com.agiletec.plugins.jpcsseditor.aps.system.services.resourceeditor.ResourceeditorManager"
+			class="com.stealthefish.entando.plugins.jpcsseditor.aps.system.services.resourceeditor.ResourceeditorManager"
 			parent="abstractService" >
 	</bean>
 

@@ -12,7 +12,7 @@
 	</bean>
 
 	<bean id="jpcsseditorAction" scope="prototype"
-			class="com.agiletec.plugins.jpcsseditor.apsadmin.resourceeditor.ResourceeditorAction" parent="abstractBaseAction">
+			class="com.stealthefish.entando.plugins.jpcsseditor.apsadmin.resourceeditor.ResourceeditorAction" parent="abstractBaseAction">
 		<property name="jpcsseditorManager" ref="jpcsseditorManager" />
 	</bean>
 

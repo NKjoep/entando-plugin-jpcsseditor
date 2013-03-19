@@ -15,17 +15,22 @@
 * Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package com.agiletec.jpcsseditor.aps;
+package com.stealthefish.jpcsseditor;
 
 import com.agiletec.ConfigTestUtils;
-import com.agiletec.aps.BaseTestCase;
-import com.agiletec.jpcsseditor.PluginConfigTestUtils;
 
-public class ApsPluginBaseTestCase extends BaseTestCase {
+public class PluginConfigTestUtils extends ConfigTestUtils {
 	
 	@Override
-	protected ConfigTestUtils getConfigUtils() {
-		return new PluginConfigTestUtils();
-	}
+	protected String[] getSpringConfigFilePaths() {
+    	String[] filePaths = new String[6];
+		filePaths[0] = "classpath:spring/propertyPlaceholder.xml";
+		filePaths[1] = "classpath:spring/baseSystemConfig.xml";
+		filePaths[2] = "classpath*:spring/aps/**/**.xml";
+		filePaths[3] = "classpath*:spring/apsadmin/**/**.xml";
+		filePaths[4] = "classpath*:spring/plugins/**/aps/**/**.xml";
+		filePaths[5] = "classpath*:spring/plugins/**/apsadmin/**/**.xml";
+		return filePaths;
+    }
 	
 }

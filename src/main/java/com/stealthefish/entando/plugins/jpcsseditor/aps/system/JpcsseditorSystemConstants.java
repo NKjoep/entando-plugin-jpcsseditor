@@ -1,4 +1,4 @@
-package com.agiletec.plugins.jpcsseditor.aps.system;
+package com.stealthefish.entando.plugins.jpcsseditor.aps.system;
 
 public class JpcsseditorSystemConstants {
 

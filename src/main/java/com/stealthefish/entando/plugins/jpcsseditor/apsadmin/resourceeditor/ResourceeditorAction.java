@@ -1,4 +1,4 @@
-package com.agiletec.plugins.jpcsseditor.apsadmin.resourceeditor;
+package com.stealthefish.entando.plugins.jpcsseditor.apsadmin.resourceeditor;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -19,8 +19,8 @@ import com.agiletec.aps.system.services.baseconfig.ConfigInterface;
 import com.agiletec.aps.util.ApsWebApplicationUtils;
 import com.agiletec.apsadmin.system.ApsAdminSystemConstants;
 import com.agiletec.apsadmin.system.BaseAction;
-import com.agiletec.plugins.jpcsseditor.aps.system.services.resourceeditor.ICssManager;
-import com.agiletec.plugins.jpcsseditor.aps.system.services.resourceeditor.ResourceeditorFileWrapper;
+import com.stealthefish.entando.plugins.jpcsseditor.aps.system.services.resourceeditor.ICssManager;
+import com.stealthefish.entando.plugins.jpcsseditor.aps.system.services.resourceeditor.ResourceeditorFileWrapper;
 //import com.sun.tools.javac.code.Attribute.Array;
 import java.util.*;
 

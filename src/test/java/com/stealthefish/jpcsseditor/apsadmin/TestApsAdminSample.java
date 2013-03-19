@@ -1,4 +1,4 @@
-package com.agiletec.jpcsseditor.apsadmin;
+package com.stealthefish.jpcsseditor.apsadmin;
 
 public class TestApsAdminSample extends ApsAdminPluginBaseTestCase {
 	

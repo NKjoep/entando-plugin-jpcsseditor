@@ -1,4 +1,4 @@
-package com.agiletec.plugins.jpcsseditor.aps.system.services.resourceeditor;
+package com.stealthefish.entando.plugins.jpcsseditor.aps.system.services.resourceeditor;
 
 import java.io.File;
 

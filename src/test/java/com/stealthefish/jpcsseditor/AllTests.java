@@ -15,17 +15,23 @@
 * Copyright 2012 Entando s.r.l. (http://www.entando.com) All rights reserved.
 *
 */
-package com.agiletec.jpcsseditor.apsadmin;
+package com.stealthefish.jpcsseditor;
 
-import com.agiletec.ConfigTestUtils;
-import com.agiletec.apsadmin.ApsAdminBaseTestCase;
-import com.agiletec.jpcsseditor.PluginConfigTestUtils;
+import com.stealthefish.jpcsseditor.aps.TestApsSample;
+import com.stealthefish.jpcsseditor.apsadmin.TestApsAdminSample;
 
-public class ApsAdminPluginBaseTestCase extends ApsAdminBaseTestCase {
+import junit.framework.Test;
+import junit.framework.TestSuite;
+
+public class AllTests {
 	
-	@Override
-	protected ConfigTestUtils getConfigUtils() {
-		return new PluginConfigTestUtils();
+	public static Test suite() {
+		TestSuite suite = new TestSuite("Change me with a suitable description");
+
+		suite.addTestSuite(TestApsSample.class);
+		suite.addTestSuite(TestApsAdminSample.class);
+		
+		return suite;
 	}
 	
 }

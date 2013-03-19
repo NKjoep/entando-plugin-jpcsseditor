@@ -1,4 +1,4 @@
-package com.agiletec.jpcsseditor.aps;
+package com.stealthefish.jpcsseditor.aps;
 
 public class TestApsSample extends ApsPluginBaseTestCase {
 	
